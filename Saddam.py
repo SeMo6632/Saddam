@@ -293,7 +293,7 @@ def main():
 		if domains:
 			files['dns'] = [dns_file]
 		else:
-			print 'Specify domains to resolve (e.g: --dns=dns.txt:evildomain.com)'
+		print 'Specify domains to resolve (e.g: --dns=dns.txt:evildomain.com)'
 			sys.exit()
 	if options.ntp:
 		files['ntp'] = [options.ntp]
